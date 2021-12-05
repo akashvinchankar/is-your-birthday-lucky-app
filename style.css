@@ -26,7 +26,7 @@ h1{
 input, label{
     display: block;
     margin: auto;
-    width: 80%;
+    width: 60%;
     margin: 0.5rem auto;
     font-weight: bold;
     font-size: 1rem;
@@ -37,7 +37,7 @@ textarea{
     margin: 0.5rem auto;
     border-radius: 0.5rem;
     border: 2px solid var(--secondary-orange);
-    width: 80%;
+    width: 60%;
     color: var(--secondary-orange);
     font-weight: bold;
     font-size: 1rem;
