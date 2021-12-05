@@ -1,0 +1,58 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+
+:root{
+    --primary-pink: #FFC4E1;
+    --secondary-orange: #000957;
+}
+body{
+    background-color: var(--primary-pink);
+    font-family: 'Montserrat', sans-serif;
+}
+
+h1{
+    color: var(--secondary-orange);
+    text-align: center;
+}
+
+.container{
+    padding: 2rem;
+    margin: auto;
+    width: 60%;
+    text-align: center;
+}
+
+input, label{
+    display: block;
+    margin: auto;
+    width: 80%;
+    margin: 0.5rem auto;
+    font-weight: bold;
+    font-size: 1rem;
+    color: var(--secondary-orange);
+}
+
+textarea{
+    margin: 0.5rem auto;
+    border-radius: 0.5rem;
+    border: 2px solid var(--secondary-orange);
+    width: 80%;
+    color: var(--secondary-orange);
+    font-weight: bold;
+    font-size: 1rem;
+    padding: 0.5rem;
+}
+
+input{
+    padding: 0.25rem;
+    border-radius: 0.5rem;
+    border: 2px solid var(--secondary-orange);
+}
+
+button{
+    margin: auto;
+    display: block;
+    border-radius: 0.5rem;
+    border: 2px solid var(--secondary-orange);
+}
