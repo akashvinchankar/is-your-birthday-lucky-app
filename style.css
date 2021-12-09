@@ -4,7 +4,7 @@
 
 :root{
     --primary-pink: #fccce3;
-    --secondary-orange: #000957;
+    --secondary-blue: #000957;
 }
 body{
     background-color: var(--primary-pink);
@@ -12,7 +12,7 @@ body{
 }
 
 h1{
-    color: var(--secondary-orange);
+    color: var(--secondary-blue);
     text-align: center;
 }
 
@@ -30,15 +30,15 @@ input, label{
     margin: 0.5rem auto;
     font-weight: bold;
     font-size: 1rem;
-    color: var(--secondary-orange);
+    color: var(--secondary-blue);
 }
 
 textarea{
     margin: 0.5rem auto;
     border-radius: 0.5rem;
-    border: 2px solid var(--secondary-orange);
+    border: 2px solid var(--secondary-blue);
     width: 60%;
-    color: var(--secondary-orange);
+    color: var(--secondary-blue);
     font-weight: bold;
     font-size: 1rem;
     padding: 0.5rem;
@@ -47,12 +47,42 @@ textarea{
 input{
     padding: 0.25rem;
     border-radius: 0.5rem;
-    border: 2px solid var(--secondary-orange);
+    border: 2px solid var(--secondary-blue);
 }
 
 button{
     margin: auto;
     display: block;
     border-radius: 0.5rem;
-    border: 2px solid var(--secondary-orange);
+    border: 2px solid var(--secondary-blue);
+}
+
+
+.footer{
+    padding: 2rem 1rem;
+    color: var(--secondary-blue);
+    text-align: center;
+    border-bottom-right-radius: 1rem;
+    margin-top: 5rem;
+}
+.footer .link{
+    color: var(--secondary-blue);
+}
+
+.footer ul{
+    padding-inline-start: 0px;
+}
+
+.footer .footer-header{
+    font-weight: bold;
+    font-size: large;
+}
+
+.list-non-bullet{
+    list-style: none;
+}
+
+.list-item-inline{
+    display: inline;
+    padding: 0rem 0.5rem;
 }
